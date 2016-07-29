@@ -1,0 +1,27 @@
+.gridItem {
+	overflow: hidden;
+	width: 150px;
+	margin: 15px;
+}
+
+.column {
+	display: inline;
+	float: left;
+}
+
+.itemDescription {
+	max-height: 0px;
+	overflow: hidden;
+	-moz-transition: max-height 2s ease;
+	-webkit-transition: max-height 2s ease;
+	-o-transition: max-height 2s ease;
+	transition: max-height 2s ease;
+}
+
+.visible {
+	max-height: 5000px; !important;
+	-moz-transition: max-height 2s ease;
+	-webkit-transition: max-height 2s ease;
+	-o-transition: max-height 2s ease;
+	transition: max-height 2s ease;
+}
