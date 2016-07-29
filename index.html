@@ -10,7 +10,7 @@
 <body>
 <div class="column">
 	<div class="gridItem" id="gI1">
-		<img src="testImg.jpg" width="150" />
+	<h1 class="mainHeader"> Contact Info </h1>
 		<div class="itemDescription" id="iD1">
 			<p> This is a test item description. 
 				Really, I just want to write enough test text
@@ -21,7 +21,7 @@
 	</div>
 
 	<div class="gridItem" id="gI2">
-			<img src="testImg.jpg" width="150" />
+	<h1 class="mainHeader"> Contact Info </h1>
 		<div class="itemDescription" id="iD2">
 			<p> This is a test item description. 
 				Really, I just want to write enough test text
@@ -33,7 +33,7 @@
 </div>
 <div class="column">
 	<div class="gridItem" id="gI3">
-			<img src="testImg.jpg" width="150" />
+	<h1 class="mainHeader"> Contact Info </h1>
 		<div class="itemDescription" id="iD3">
 			<p> This is a test item description. 
 				Really, I just want to write enough test text
@@ -44,7 +44,7 @@
 	</div>
 
 	<div class="gridItem" id="gI4">
-			<img src="testImg.jpg" width="150" />
+	<h1 class="mainHeader"> Contact Info </h1>
 		<div class="itemDescription" id="iD14">
 			<p> This is a test item description. 
 				Really, I just want to write enough test text
@@ -56,7 +56,7 @@
 </div>
 <div class="column">
 	<div class="gridItem" id="gI5">
-			<img src="testImg.jpg" width="150" />
+	<h1 class="mainHeader"> Contact Info </h1>
 		<div class="itemDescription" id="iD5">
 			<p> This is a test item description. 
 				Really, I just want to write enough test text
@@ -67,7 +67,7 @@
 	</div>
 
 	<div class="gridItem" id="gI6">
-			<img src="testImg.jpg" width="150" />
+	<h1 class="mainHeader"> Contact Info </h1>
 		<div class="itemDescription" id="iD6">
 			<p> This is a test item description. 
 				Really, I just want to write enough test text
@@ -79,7 +79,7 @@
 </div>
 <div class="column">
 	<div class="gridItem" id="gI7">
-			<img src="testImg.jpg" width="150" />
+	<h1 class="mainHeader"> Contact Info </h1>
 		<div class="itemDescription" id="iD7">
 			<p> This is a test item description. 
 				Really, I just want to write enough test text
@@ -90,7 +90,7 @@
 	</div>
 
 	<div class="gridItem" id="gI8">
-			<img src="testImg.jpg" width="150" />
+	<h1 class="mainHeader"> Contact Info </h1>
 		<div class="itemDescription" id="iD8">
 			<p> This is a test item description. 
 				Really, I just want to write enough test text
@@ -102,7 +102,7 @@
 </div>
 <div class="column">
 	<div class="gridItem" id="gI9">
-			<img src="testImg.jpg" width="150" />
+	<h1 class="mainHeader"> Contact Info </h1>
 		<div class="itemDescription" id="iD9">
 			<p> This is a test item description. 
 				Really, I just want to write enough test text
@@ -113,7 +113,7 @@
 	</div>
 
 	<div class="gridItem" id="gI10">
-			<img src="testImg.jpg" width="150" />
+	<h1 class="mainHeader"> Contact Info </h1>
 		<div class="itemDescription" id="iD10">
 			<p> This is a test item description. 
 				Really, I just want to write enough test text
@@ -128,22 +128,9 @@
 	<script type="text/javascript">
       var on = true;
 
-      $(".gridItem").click(function() {
+      $(".gridItem").hover(function() {
 
       	$(this).children(".itemDescription").toggleClass("visible");
-      // 	if(!on) {
-      // 	$(this).find(".itemDescription").animate({
-      // 		height: "auto"
-      // 	}, 500);
-      // 	on = true;
-      // }
-      // else {
-      // 	on = false;
-      // 	$(this).find(".itemDescription").animate({
-      // 		height: 0
-      // 	}, 500);
-      // }
-
       });
 
 

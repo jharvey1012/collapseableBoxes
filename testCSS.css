@@ -1,6 +1,13 @@
+.mainHeader {
+	background-color: #003366;
+	color: #ffffff;
+	padding: 5px;
+	text-align: center;
+}
+
 .gridItem {
 	overflow: hidden;
-	width: 150px;
+	width: 200px;
 	margin: 15px;
 }
 
